@@ -1,0 +1,58 @@
+html {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+body {
+    background-color: #FCFBE3; /* vanilla cream -- yum */
+    font: 1em/1.2em 'Open Sans', sans-serif;
+    margin: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.1em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+a, a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: orange;
+}
+
+dfn {
+    font-weight: bold;
+}
+
+dl {
+    counter-reset: i;
+}
+
+dd:before {
+    content: counter( i ) ". ";
+    counter-increment: i;
+}
+
+footer {
+    margin: 2em 0;
+}
+
+.subtitle {
+    font-style: oblique;
+}
+
+.smallprint {
+    font-size: 0.75em;
+}
