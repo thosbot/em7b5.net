@@ -5,7 +5,7 @@ html {
 
 body {
     background-color: #FCFBE3; /* vanilla cream -- yum */
-    font: 1em/1.2em 'Open Sans', sans-serif;
+    font: 1em/1.6em 'Open Sans', sans-serif;
     margin: 1em;
 }
 
@@ -45,6 +45,12 @@ dd:before {
     counter-increment: i;
 }
 
+hr {
+    border: 0;
+    height: 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
 footer {
     margin: 2em 0;
 }
@@ -54,5 +60,5 @@ footer {
 }
 
 .smallprint {
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
