@@ -19,6 +19,7 @@ h1 {
 }
 
 h2 {
+    text-transform: lowercase;
     padding: 0 0 10px 0;
     border-bottom: 1px solid #CCCCCC;
 }
