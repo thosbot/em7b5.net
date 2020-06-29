@@ -3,8 +3,32 @@ html {
     max-width: 1080px;
 }
 
+:root {
+	--bg-color: #FCFBE3;
+	--color: #000000;
+	--a-link: #0000FF;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--bg-color: #FCFBE3;
+		--color: #000000;
+		--a-link: #0000FF;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: #000000;
+		--color: #FFFFFF;
+		--a-link: #80FFFF;
+	}
+}
+
 body {
-    background-color: #FCFBE3; /* vanilla cream -- yum */
+    background-color: var(--bg-color, #FCFBE3);
+    color: var(--color, #000000);
+
     font: 1em/1.6em 'Open Sans', sans-serif;
     margin: 1em;
 }
@@ -25,12 +49,12 @@ h2 {
 }
 
 a, a:link, a:visited {
-    color: blue;
+    color: var(--a-link, #0000FF);
     text-decoration: none;
 }
 
 a:hover, a:active {
-    color: orange;
+    text-decoration: underline;
 }
 
 dfn {
