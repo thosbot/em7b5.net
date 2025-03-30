@@ -4,25 +4,25 @@ html {
 }
 
 :root {
-	--bg-color: #FCFBE3;
-	--color: #000000;
-	--a-link: #0000FF;
+    --bg-color: #FCFBE3;
+    --color: #000000;
+    --a-link: #0000FF;
 }
 
 @media (prefers-color-scheme: light) {
-	:root {
-		--bg-color: #FCFBE3;
-		--color: #000000;
-		--a-link: #0000FF;
-	}
+    :root {
+        --bg-color: #FCFBE3;
+        --color: #000000;
+        --a-link: #0000FF;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--bg-color: #000000;
-		--color: #FFFFFF;
-		--a-link: #80FFFF;
-	}
+    :root {
+        --bg-color: #000000;
+        --color: #FFFFFF;
+        --a-link: #80FFFF;
+    }
 }
 
 body {
