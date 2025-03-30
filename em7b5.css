@@ -29,7 +29,7 @@ body {
     background-color: var(--bg-color, #FCFBE3);
     color: var(--color, #000000);
 
-    font: 1em/1.6em 'Open Sans', sans-serif;
+    font: 1em/1.6em sans-serif;
     margin: 1em;
 }
 
