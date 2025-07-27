@@ -7,6 +7,7 @@ html {
     --bg-color: #FCFBE3;
     --color: #000000;
     --a-link: #0000FF;
+    --border-color: #CCCCCC;
 }
 
 @media (prefers-color-scheme: light) {
@@ -14,6 +15,7 @@ html {
         --bg-color: #FCFBE3;
         --color: #000000;
         --a-link: #0000FF;
+        --border-color: #CCCCCC;
     }
 }
 
@@ -22,6 +24,7 @@ html {
         --bg-color: #000000;
         --color: #FFFFFF;
         --a-link: #80FFFF;
+        --border-color: #444444;
     }
 }
 
@@ -45,7 +48,7 @@ h1 {
 h2 {
     text-transform: lowercase;
     padding: 0 0 10px 0;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid var(--border-color);
 }
 
 a, a:link, a:visited {
@@ -73,7 +76,7 @@ dd:before {
 hr {
     border: 0;
     height: 0;
-    border-bottom: 1px solid #CCCCCC;
+    border-bottom: 1px solid var(--border-color);
 }
 
 footer {
